@@ -21,7 +21,7 @@ for i in dic:
         print((comp-i)*i)
         break
 #part 2
-for j in range(len(arr)):
+for j in range(len(arr)): #thankfully since I built that dictionary this becomes an N^2 solution rather than N^3
     
     for q in range(len(arr)):
         if q == j:
