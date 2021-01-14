@@ -1,3 +1,9 @@
+The python code is quite long for the first part. The reason? Because I said "i dont like recursion so let me just do a finate space search". You can imagine that's longer. 
+I ended up doing recursion for the second part because it's much shorter. I could have done memozation to make it faster but it's not like it has to access the map that much anyway, 
+unlike the first part. That involved me using a map to make the space search occur less often. 
+
+
+
 --- Day 7: Handy Haversacks ---
 You land at the regional airport in time for your next flight. In fact, it looks like you'll even have time to grab some food: all flights are currently delayed due to issues in luggage processing.
 
@@ -29,10 +35,6 @@ So, in this example, the number of bag colors that can eventually contain at lea
 How many bag colors can eventually contain at least one shiny gold bag? (The list of rules is quite long; make sure you get all of it.)
 
 Your puzzle answer was 211.
-
-The python code is quite long for the first part. The reason? Because I said "i dont like recursion so let me just do a finate space search". You can imagine that's longer. 
-I ended up doing recursion for the second part because it's much shorter. I could have done memozation to make it faster but it's not like it has to access the map that much anyway, 
-unlike the first part. That involved me using a map to make the space search occur less often. 
 
 --- Part Two ---
 It's getting pretty expensive to fly these days - not because of ticket prices, but because of the ridiculous number of bags you need to buy!
